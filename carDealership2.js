@@ -12,6 +12,9 @@ function rentCar(type) {
     if (type.available === "yes") {
         console.log("Congrats, the " + type.category + " is available, do you want to rent it");
     }
+    else {
+        console.log("Uh ooh, no car for you!!!");
+    }
 }
 
-rentCar(suv)
+rentCar(sports)
